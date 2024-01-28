@@ -1,0 +1,82 @@
+1. Place a bet with a valid input:
+
+Steps:
+1. Go to the roulette game on https://csgoempire.com/roulette.	
+2. Enter a valid input for the bet amount.
+3. Choose the symbol you want to bet on and click on the "Place Bet" button.
+
+Expected result: The bet is accepted, so the user is able observe the updated balance.
+
+
+2. Place a bet with an invalid input
+
+Steps:
+1. Access the roulette game on https://csgoempire.com/roulette.
+2. Enter an invalid input (negative numbers, letters, symbols).
+3. Click "Place Bet."
+
+Expected result: The bet cannot be placed, an appropriate error message will be thrown.
+
+
+3. Place a bet and win
+
+Steps:
+1. Access the roulette game on https://csgoempire.com/roulette.
+2. Enter a valid input for the bet amount.
+3. Choose a symbol and click on the "Place bet" button.
+4. Observe the roulette wheel spin when it stops.
+
+Expected result: If the result matches the user's bet, the win amount is granted and updated to the player's balance.
+
+
+4. Place a bet and lose
+
+Steps:
+1. Access the roulette game on https://csgoempire.com/roulette.
+2. Enter a valid input for the bet amount.
+3. Choose a symbol and click on the "Place bet" button.
+4. Observe the roulette wheel spin when it stops.
+
+Expected result: The user loses the bet and no win is granted. The balance remains as it is.
+
+5. Check if the calculations from the bet section are correct
+
+Steps:
+1. Access the roulette game on https://csgoempire.com/roulette.
+2. Enter a valid input into the bet field.
+3. Click on the adjacent buttons that updates the bet.
+4. The bet amount is updated according to the button clicked.
+
+Expected result: The updated amount from the bet field is calculated correctly.
+
+
+6. Deposit an amount to the account
+
+Steps:
+1. Access the roulette game on https://csgoempire.com/roulette.
+2. Click on the "Deposit" button.
+3. Choose a method to deposit and click on it.
+4. Enter the requested data to make a succesful deposit.
+
+Expected result: The deposited amount was updated to the current balance.
+
+7. Withdraw an amount to the user's account
+
+Steps:
+1. Access the roulette game on https://csgoempire.com/roulette.
+2. Accumulate winnings through the roulette game.
+3. Navigate to the withdrawal section.
+4. Initiate a withdrawal request.
+
+Expected result: The withdrawal request is processed, and the correct amount is transferred to the user's account.
+
+
+8. Insufficient balance for withdrawal
+
+Steps:
+1. Access the roulette game on https://csgoempire.com/roulette.
+2. Click on the "Withdraw" button.
+2. Attempt to withdraw an amount exceeding the available balance.
+3. Submit the withdrawal request.
+
+Expected result: The system prevents the withdrawal, displaying an error message indicating insufficient funds.
